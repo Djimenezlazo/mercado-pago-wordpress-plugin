@@ -14,6 +14,10 @@ Este plugin está desarrollado utilizando el SDK oficial de **Mercado Pago** par
 
 Cuando el usuario presiona el botón de **"Finalizar compra"**, el plugin redirige automáticamente al cliente a la página de **Mercado Pago** para completar el proceso de pago. Este flujo es completamente seguro, ya que el plugin utiliza las credenciales de la cuenta de Mercado Pago para generar la preferencia de pago y asegurar la correcta gestión de la transacción.
 
+### Modos de Operación:
+- **Modo Sandbox**: El plugin incluye un **modo Sandbox** para realizar pruebas sin afectar las transacciones reales. Para usar este modo, es necesario incluir el **Access Token** de las credenciales de prueba de Mercado Pago.
+- **Modo Producción**: Para el funcionamiento en producción, se debe configurar el **client_id** y el **client_secret** correspondientes a las credenciales de producción de Mercado Pago, asegurando que todas las transacciones se realicen de manera segura y eficiente.
+
 ### Requisitos:
 - **WordPress 5.0 o superior**
 - **PHP 7.0 o superior**
@@ -25,5 +29,5 @@ Cuando el usuario presiona el botón de **"Finalizar compra"**, el plugin rediri
 3. Activa el plugin desde el panel de administración de WordPress.
 4. Configura tu cuenta de Mercado Pago en la sección de configuración del plugin.
 
-### Contribuciones:
-¡Las contribuciones son bienvenidas! Si deseas mejorar el plugin o agregar nuevas funcionalidades, haz un fork del repositorio y envía un pull request.
+### Referencia:
+Este plugin fue creado utilizando el SDK oficial de Mercado Pago. Para más información, visita el repositorio oficial del SDK en [GitHub](https://github.com/mercadopago/sdk-php).
